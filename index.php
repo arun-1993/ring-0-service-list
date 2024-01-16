@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
 		<title>Ring 0 Services</title>
 	</head>
 
@@ -34,15 +35,16 @@
 	?>
 
 	<body>
+		<div class="container">
 		<h1>List of services running in Ring 0</h1>
 
 		<table>
 			<thead>
 				<tr>
-					<td>#</td>
-					<td>Service Name</td>
-					<td>Display Name</td>
-					<td>State</td>
+					<th>#</th>
+					<th>Service Name</th>
+					<th>Display Name</th>
+					<th>State</th>
 				</tr>
 			</thead>
 
@@ -57,5 +59,6 @@
 				<?php endfor;?>
 			</tbody>
 		</table>
+		</div>
 	</body>
 </html>
